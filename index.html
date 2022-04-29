@@ -1,0 +1,34 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/> <!-- Behúzod a css-t és a javascriptet -->
+    <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive webért felelős elem -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> <!-- Ékezetek és speciális karakterek -->
+
+</head>
+<body>
+    <div class="container">
+        <div class="form-holder">
+                <input type="text" id="first" placeholder="Első elem"/>
+                <input type="text" id="second" placeholder="Második elem"/>
+                <input type="text" id="third" placeholder="Harmadik elem"/>
+                <input type="text" id="fourth" placeholder="Negyedik elem"/>
+                <input type="text" id="fifth" placeholder="Ötödik elem"/>
+
+                <div class="button-holder">
+                    <button onclick="store()"> Küldés </button>
+                </div>
+        </div>
+        <div class="selection-box">
+            <select>
+                <option selected="selected">Elemek</option>
+                <option id="1"></option>
+                <option id="2" ></option>
+                <option id="3" ></option>
+                <option id="4" ></option>
+                <option id="5" ></option>
+            </select>
+        </div>
+    </div>
+</body>
+</html>
